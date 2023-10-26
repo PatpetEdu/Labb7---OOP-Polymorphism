@@ -7,11 +7,7 @@ using System.Threading.Tasks;
 namespace Labb7___OOP_Polymorphism
 {
     public abstract class Geometri
-    { 
-        public virtual double Area()
-        {
-            Console.WriteLine(" Area = ");
-            return 0;
-        }
+    {
+        public abstract double Area();//basmetod för area som våra underklasser ärver och kan skriva över.       
     }
 }

@@ -11,14 +11,13 @@ namespace Labb7___OOP_Polymorphism
     {
         public double Width { get; set; }
         public double Height { get; set; }
-        public Rektangel(double width, double height)
+        public Rektangel(double width, double height) //konstruktor för vår rektangel
         {
             Width = width;
             Height = height;
-            //Width = 10;
-            //Height = 5;
+            
         }
-        public override double Area()
+        public override double Area()//metod för att räkna ut arean på en rektangel
         {
             Console.WriteLine("Rektangelns Area = " + Width * Height);
             return Width * Height;

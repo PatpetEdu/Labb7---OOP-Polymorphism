@@ -10,14 +10,14 @@ namespace Labb7___OOP_Polymorphism
     {
         public double TransversalAxeln { get; set; }
         public double KonjugatAxeln { get; set; }
-        public Ellips(double transversalAxeln, double konjugatAxeln)
+        public Ellips(double transversalAxeln, double konjugatAxeln) //konstruktor för vår ellips
         {
-            TransversalAxeln = transversalAxeln;
+            TransversalAxeln = transversalAxeln; 
             KonjugatAxeln = konjugatAxeln;
         }
         public override double Area()
         {
-            Console.WriteLine("Ellipsens Area = " + Math.PI * TransversalAxeln * KonjugatAxeln);
+            Console.WriteLine("Ellipsens Area = " + Math.PI * TransversalAxeln * KonjugatAxeln); //metod för att räkna ut arean på en ellips
             return Math.PI * TransversalAxeln * KonjugatAxeln;
         }
     }

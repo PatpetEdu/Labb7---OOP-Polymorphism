@@ -14,12 +14,10 @@ namespace Labb7___OOP_Polymorphism
         {
             Width = width;
             Height = height;
-
         }
-
         public override double Area()
         {
-            Console.WriteLine("Parallellogramets Area = " + Width * Height);
+            Console.WriteLine("Parallellogramets Area = " + Width * Height);//metod för att räkna ut arean på ett parallellogram
             return Width * Height;
         }
     }
